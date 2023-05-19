@@ -1,7 +1,6 @@
 .pytest_cache
 __pycache__
 venv
-fuzzing-results/*
 .vscode
 fuzzing-inputs
 fuzzing-results
