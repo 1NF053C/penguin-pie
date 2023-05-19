@@ -14,7 +14,7 @@ pytest ./
 pytest src/lib/*
 ```
 
-[lib/example_same_file.py](lib/example_unit_test_same_file.py)
+[src/lib/example_unit_test_same_file.py](src/lib/example_unit_test_same_file.py)
 
 
 ## How to run fuzz tests:
