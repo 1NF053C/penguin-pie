@@ -21,7 +21,6 @@ def host(request):
     subprocess.check_call(["docker", "image", "remove", "myimage"])
 
 
-
 def test_myimage(host):
     # 'host' now binds to the container
     assert host.exists("python")
