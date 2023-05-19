@@ -5,7 +5,7 @@ A repo with simple examples of testing in python.
 ## How to run infrastructure tests:
 
 ```sh
-pytest .
+pytest ./
 ```
 
 ## How to run unit tests:
