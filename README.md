@@ -28,7 +28,3 @@ pytest lib/*
 
 [lib/example_test_with_api_response_fixture.py](lib/example_test_with_api_response_fixture.py)
 
-
-## How to run fuzz tests:
-
-todo
