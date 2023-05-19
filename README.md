@@ -8,6 +8,11 @@ A repo with simple examples of testing in python.
 pytest ./
 ```
 
+[test_local_infra_example.py](test_local_infra_example.py)
+
+[test_dockerinfra.py](test_dockerinfra.py)
+
+
 ## How to run unit tests:
 
 ```sh
