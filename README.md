@@ -28,3 +28,10 @@ pytest lib/*
 
 [lib/example_test_with_api_response_fixture.py](lib/example_test_with_api_response_fixture.py)
 
+## How to run fuzz tests:
+
+```sh
+py-afl-fuzz -m 600 -i fuzzing-inputs/ -o fuzzing-results/ -- python lib/example_fuzzing.py @@
+```
+
+[lib/example_fuzzing.py](lib/example_fuzzing.py)
