@@ -2,6 +2,11 @@
 
 pytest examples
 
+## activate virtual env
+```sh
+source venv/bin/activate
+```
+
 ## How to run infrastructure tests:
 
 ```sh
