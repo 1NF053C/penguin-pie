@@ -1,6 +1,6 @@
 # pytest-exemplar
 
-A repo with simple examples of testing in python.
+pytest examples
 
 ## How to run infrastructure tests:
 
