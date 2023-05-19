@@ -24,5 +24,6 @@ def host(request):
 def test_myimage(host):
     # 'host' now binds to the container
     assert host.exists("python3")
-    assert host.file("/main.py").exists
-    assert host.file("/lib").exists
+    assert host.exists("python")
+    assert host.file("/app/main.py").exists
+    assert host.file("/app/lib").exists
