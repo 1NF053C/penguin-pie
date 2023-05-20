@@ -9,7 +9,7 @@ I'm working on a small codebase. I've been asked to make a few updates, and the 
 
 Everything except fuzz tests are runnable from `pytest`.
 
-## activate virtual env
+## How to activate virtual env
 ```sh
 source venv/bin/activate
 ```
