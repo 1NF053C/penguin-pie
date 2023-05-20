@@ -4,7 +4,7 @@ I'm working on a small codebase. I've been asked to make a few updates, and the 
 
 # Conclusions
 - Small same file unit and async unit tests should be enough to keep troubleshooting and debugging simple, for now.
-- A few infrastructure tests may be useful to catch simple mistakes while changing my dockerfile.
+- A few infrastructure tests may be useful to catch simple mistakes in my dockerfile.
 - I don't think Fuzz tests and API response mocking are needed while this project is so small.
 
 Everything except fuzz tests are runnable from `pytest`.
