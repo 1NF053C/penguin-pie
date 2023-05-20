@@ -1,6 +1,6 @@
 import sys
 import time
-from lib.example_func import func_under_test
+from example_func import func_under_test
 
 if __name__ == "__main__":
     input = int(sys.argv[1])

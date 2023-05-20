@@ -13,7 +13,7 @@ def test_function_that_depends_on_response_from_backing_service():
     assert result == "Title: Noise Filter"
 
 def mock_request():
-    f = open("lib/util/response_fixture.json")
+    f = open("examples/util/response_fixture.json")
     resp_data = json.load(f)
     f.close()
     return resp_data
