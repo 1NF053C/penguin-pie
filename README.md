@@ -13,7 +13,12 @@ This repo is the result of this investigation. It includes the following example
 - Infrastructure example (docker image and container)
 - Fuzz Test example
 
-All runnable from `pytest`. Small same file unit and async unit tests should be enough for now to keep troubleshooting and debugging simple.
+Everything except fuzz tests are runnable from `pytest`.
+
+# Conclusions
+- Small same file unit and async unit tests should be enough to keep troubleshooting and debugging simple, for now.
+- A few infrastructure tests may be useful to catch simple mistakes while changing my dockerfile.
+- I don't think Fuzz tests and API response mocking will help so disregarding for now.
 
 # pytest-exemplar
 
