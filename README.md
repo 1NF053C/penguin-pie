@@ -1,8 +1,6 @@
 # Inspiration
 
-I'm working on a codebase that has prioritized functionality and release over design. This has worked well given the goals of the project and given that the codebase is relatively small.
-
-I've been asked to make a few updates to the codebase, and the first couple changes worked OK however I'm having trouble debugging the latest change. I need to be able to make small updates with confidence without "re-architecting" everything.
+I'm working on a small codebase. I've been asked to make a few updates, and the first couple changes worked OK, however I'm having trouble debugging the latest change. I need to be able to make small updates with confidence without "re-architecting" everything.
 
 I had expected file imports and path resolution to work a certain way and for asynchronous tests to work out of the box, however things don't work in Python-land like they do in Node.js / JavaScript-land so I had to do some investigation.
 
