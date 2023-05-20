@@ -2,7 +2,7 @@
 
 TL:DR; I prefer to work effectively **so that I can spend time outside with friends and family** :D.
 
-I'm working on a codebase that has prioritized functionality and release over design. This has worked well given the goals of the project and given that the codebase is relatively small. I'm surprised that this approach works so well for small projects in the beginning.
+I'm working on a codebase that has prioritized functionality and release over design. This has worked well given the goals of the project and given that the codebase is relatively small.
 
 I've been asked to make a few updates to the codebase, and the first couple changes worked OK however I'm having trouble debugging the latest change. I need to be able to make small updates with confidence without "re-architecting" everything and without offering abstract design recommendations that have too much room for misinterpretion by other developers.
 
