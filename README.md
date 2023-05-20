@@ -4,19 +4,12 @@ I'm working on a small codebase. I've been asked to make a few updates, and the 
 
 I had expected file imports and path resolution to work a certain way and for asynchronous tests to work out of the box, however things don't work in Python-land like they do in Node.js / JavaScript-land so I had to do some investigation.
 
-This repo is the result of this investigation. It includes the following examples:
-- Same file Unit Test example
-- Asynchronous Test example
-- API Response fixture example (read static Json as mock http response)
-- Infrastructure example (docker image and container)
-- Fuzz Test example
-
-Everything except fuzz tests are runnable from `pytest`.
-
 # Conclusions
 - Small same file unit and async unit tests should be enough to keep troubleshooting and debugging simple, for now.
 - A few infrastructure tests may be useful to catch simple mistakes while changing my dockerfile.
 - I don't think Fuzz tests and API response mocking are needed while this project is so small.
+
+Everything except fuzz tests are runnable from `pytest`.
 
 # pytest-exemplar
 
