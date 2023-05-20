@@ -1,8 +1,6 @@
 # Inspiration
 
-I'm working on a small codebase. I've been asked to make a few updates, and the first couple changes worked OK, however I'm having trouble debugging the latest change. I need to be able to make small updates with confidence without "re-architecting" everything.
-
-I had expected file imports and path resolution to work a certain way and for asynchronous tests to work out of the box, however things don't work in Python-land like they do in Node.js / JavaScript-land so I had to do some investigation.
+I'm working on a small codebase. I've been asked to make a few updates, and the first couple changes worked OK, however I'm having trouble debugging the latest change. I need to be able to make small updates with confidence.
 
 # Conclusions
 - Small same file unit and async unit tests should be enough to keep troubleshooting and debugging simple, for now.
