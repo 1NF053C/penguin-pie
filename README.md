@@ -16,7 +16,7 @@ Everything except fuzz tests are runnable from `pytest`.
 # Conclusions
 - Small same file unit and async unit tests should be enough to keep troubleshooting and debugging simple, for now.
 - A few infrastructure tests may be useful to catch simple mistakes while changing my dockerfile.
-- I don't think Fuzz tests and API response mocking will help so disregarding for now.
+- I don't think Fuzz tests and API response mocking are needed while this project is so small.
 
 # pytest-exemplar
 
