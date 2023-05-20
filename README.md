@@ -1,3 +1,7 @@
+# Inspiration
+
+I'm working on a codebase that has prioritized functionality and release over design. This has worked well given the goals of the project and I'm surprised how much this approach works for getting started on small projects with no to low adoption. I've been asked to make a few updates to the codebase, and the first couple worked OK however I'm having trouble debugging the latest change. I need to be able to make small updates with confidence without "re-architecting" everything and without offering abstract design recommendations that have too much room for misinterpretion by other develoeprs.
+
 # pytest-exemplar
 
 pytest examples
