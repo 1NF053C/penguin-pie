@@ -30,9 +30,12 @@ pytest ./
 ## How to run unit tests:
 
 ```sh
-pytest lib/*
+pytest examples/*
 ```
 
-[lib/example_unit_test_same_file.py](lib/example_unit_test_same_file.py)
+[examples/example_unit_test_same_file.py](examples/example_unit_test_same_file.py)
 
-[lib/example_test_with_api_response_fixture.py](lib/example_test_with_api_response_fixture.py)
+[examples/example_test_with_api_response_fixture.py](examples/example_test_with_api_response_fixture.py)
+
+[examples/example_async_test.py](examples/example_async_test.py) # pytest-aio does not require any extra setup
+
