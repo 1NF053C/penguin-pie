@@ -46,3 +46,8 @@ pytest examples/*
 
 [examples/example_async_test.py](examples/example_async_test.py) # pytest-aio does not require any extra setup
 
+## Future examples (TODO):
+
+- Auto mocking, spy, stubbing 3rd party libs
+- Snapshot testing
+
